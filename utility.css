@@ -1,0 +1,27 @@
+.justify-center {
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.grey {
+    background-color: #202020
+}
+
+.border-radius {
+    border-radius: 10px;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.margin {
+    margin: 10px;
+}

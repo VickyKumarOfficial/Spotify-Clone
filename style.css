@@ -4,5 +4,31 @@
 }
 
 body {
-    background-color: rgb(56, 52, 52);
+    background-color: black;
+}
+
+.left {
+    width: 25vw;
+    padding: 30px;
+    /* background-color: #202020; */
+} 
+
+.right {
+    width: 76vw;
+    /* background-color: #202020; */
+}
+
+.container .left .home .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: larger;
+}
+
+.home ul li{
+    color: #fff;
+    width: 20px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
 }
