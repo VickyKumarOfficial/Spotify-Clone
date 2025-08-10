@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -9,20 +12,20 @@ body {
 
 .left {
     width: 25vw;
-    padding: 30px;
+    margin-left: -10px;
+    /* padding: 10px; */
     /* background-color: #202020; */
 } 
 
 .right {
-    width: 76vw;
+    width: 75vw;
+    margin: 10px 0;
+    border-radius: 10px;
     /* background-color: #202020; */
 }
 
 .container .left .home .logo {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-size: larger;
+    gap: 9px;
 }
 
 .home ul li{
@@ -31,4 +34,40 @@ body {
     list-style: none;
     display: flex;
     gap: 15px;
+    padding-top: 20px;
+}
+
+.container .left .library {
+    position: relative;
+    min-height: 65vh;
+    padding-top: 25px;
+    color: #fff;
+}
+
+.library .heading h2 {
+    width: 160px;
+    gap: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.library .footer {
+    position: absolute;
+    bottom: 0;
+    gap: 5px;
+}
+
+.library .footer a {
+    font-size: 12px;
+    color: #909090;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.playlist {
+    min-height: 60vh;
 }

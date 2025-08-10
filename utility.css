@@ -11,7 +11,11 @@
 }
 
 .grey {
-    background-color: #202020
+    background-color: #121212
+}
+
+.black {
+    background-color: #000000
 }
 
 .border-radius {
@@ -23,5 +27,21 @@
 }
 
 .margin {
-    margin: 10px;
+    margin: 8px;
+}
+
+.m-top {
+    margin-top: 3px;
+}
+
+.padding {
+    padding: 25px;
+}
+
+.img-width {
+    width: 22px;
+}
+
+.gradient {
+    background: linear-gradient(180deg, #1a1a1a, #121212);
 }

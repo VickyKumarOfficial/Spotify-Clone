@@ -8,18 +8,51 @@
     <link rel="stylesheet" href="utility.css">
 </head>
 <body>
-    <div class="container margin flex">
-        <div class="left grey border-radius">
-            <div class="home">
-                <div class="logo invert"><img src="svg/logo.svg" alt="Spotify">Spotify</div>
+    <div class="container margin flex m-top">
+        <div class="left border-radius">
+            <div class="home margin grey padding border-radius">
+                <div class="logo items-center flex invert"><img width="27" src="svg/logo.svg" alt="Spotify">Spotify</div>
                 <ul>
-                    <li><img class="invert" src="svg/home.svg" alt="home">Home</li>
-                    <li><img class="invert" src="svg/searchIcon.svg" alt="search">Search</li>
+                    <li class="flex items-center img-width"><img class="invert" src="svg/home.svg" alt="home">Home</li>
+                    <li class="flex items-center img-width"><img class="invert" src="svg/searchIcon.svg" alt="search">Search</li>
                 </ul>
             </div>
+            <div class="library grey margin padding border-radius">
+                <div class="heading flex">
+                    <img class="invert img-width" src="svg/library.svg" alt="library">
+                    <h2>Your Library</h2>
+                    <img class="invert img-width" src="svg/plus.svg" alt="library">
+                </div>
+                <div class="footer flex">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy </span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
         </div>
+
         <div class="right grey border-radius">
-            
+            <div class="header flex grey border-radius">
+                <div class="nav">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button>Sign up</button>
+                    <button>Log in</button>
+                </div>
+            </div>
+
+            <div class="playlist gradient">
+
+            </div>
         </div>
     </div>
 </body>
